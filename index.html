@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA - TRANSFORMACIÓN DE TEXTO</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body class="main">
+
+    <div class="mainItem">
+        <div class="calcPadre">
+            <div class="calcHijo1">
+                <input type="number" disabled id="num1">
+                <button type="button" id="butEnter"> Cambiar </button>
+                <input type="number" disabled id="num2">
+            </div>
+            <br>
+            <div>
+                <div class="calcHijo2">
+                    <button type="button" id="butCalc7" class="butCalc" value="7">7</button>
+                    <button type="button" id="butCalc8" class="butCalc" value="8">8</button>
+                    <button type="button" id="butCalc9" class="butCalc" value="9">9</button>
+                    <button type="button" id="butSum">+</button>
+                </div>
+                <br>
+                <div class="calcHijo2">
+                    <button type="button" id="butCalc4" class="butCalc" value="4">4</button>
+                    <button type="button" id="butCalc5" class="butCalc" value="5">5</button>
+                    <button type="button" id="butCalc6" class="butCalc" value="6">6</button>
+                    <button type="button" id="butRes">-</button>
+                </div>
+                <br>
+                <div class="calcHijo2">
+                    <button type="button" id="butCalc1" class="butCalc" value="1">1</button>
+                    <button type="button" id="butCalc2" class="butCalc" value="2">2</button>
+                    <button type="button" id="butCalc3" class="butCalc" value="3">3</button>
+                    <button type="button" id="butMul">*</button>
+                </div>
+                <br>
+                <div class="calcHijo2"> 
+                    <button type="button" id="butCalc0" class="butCalc" value="0">0</button>
+                    <button type="button" id="butDiv">/</button>
+                </div>
+                <br>                
+                <div class="calcHijo1">
+                    <input type="text" disabled id="inpRes">
+                    <button type="button" id="butLimp">Limpiar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="mainItem">
+        <div class="textPadre">
+            <div class="textHijo1">
+                <textarea cols="50" rows="8" id="text"></textarea>
+            </div>
+            <br>
+            <div class="textHijo2">
+                <button type="button" id="minText">Minúsculas</button>
+                <button type="button" id="mayusText">Mayúsculas</button>
+            </div>
+            <br><br>
+            <div class="textHijo2">
+                <button type="button" id="carText">Caracteres</button>
+                <input type="number" disabled id="inpText">
+            </div>
+            <br>
+            <div class="textHijo2">
+                <button id="butLimp2">Limpiar</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
